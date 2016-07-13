@@ -1,0 +1,13 @@
+{
+	"schedule": "R1/2014-09-25T17:22:00Z/PT2M",
+	"name": "shellTest",
+	"container": {
+		"type": "DOCKER",
+		"image": "seoy/shelltest2",
+		"network": "BRIDGE"
+	},
+	"cpus": "0.5",
+	"mem": "512",
+	"uris": [],
+	"command": "/imageRepo/startup.sh"
+}
